@@ -3,6 +3,6 @@
 
 
 ## Credits:
-* [David Rodriguez](www.github.com/drod75)
+* [David Rodriguez](https://drod75.github.io/)
 * [Nickalous Yao]()
 * [Tony Liu]()
