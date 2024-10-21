@@ -1,0 +1,10 @@
+[theme]
+base = 'light'
+# Not Visible
+primaryColor = '#dfedf3'
+# Main Color
+backgroundColor = '#f8fbfc'
+#Sidebar Color
+secondaryBackgroundColor = '#8efc7c'
+textColor = 'black'
+font ='sans serif'

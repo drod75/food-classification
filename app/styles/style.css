@@ -1,0 +1,23 @@
+/* 
+    This is the css file for the streamlit app.
+    It is used to style the app.
+*/
+
+/* Agdasima Font */
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap"); 
+
+html, div, p, a [class*="css"] {
+    font-family: 'Agdasima'; 
+    font-size: 20px;
+    font-weight: 500;
+    color: #091747;
+}
+
+h1, h2, h3, h4, h5, h6, body, [class*="css"] {
+    font-family: 'Agdasima Bold';
+    font-weight: 700;
+    font-size: 24px;
+    color: #091747;
+    border-bottom: 2px solid red;
+    padding: 5px 10px;
+}

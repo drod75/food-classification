@@ -3,16 +3,13 @@ import streamlit as st
 
 #read in css
 with open( "app/styles/style.css" ) as css:
-    st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html=True)
+    st.markdown( f'<style>{css.read()}</style>' 
+                , unsafe_allow_html=True)
 
+#Pages
 pages = [
-    #Pages tbd
-    st.Page('app/src/home.py',title='MTA Base', icon=':material/domain:', default=True),
-    st.Page('app/src/log.py',title='MTA Log', icon=':material/map:'),
-    st.Page('app/src/mta_analysis.py',title='MTA Ridership', icon=':material/groups:'),
-    st.Page('app/src/mta_suggestions.py',title='MTA Line Suggestion', icon=':material/subway:'),
-    st.Page('app/src/mta_ai.py',title='MT-AI', icon=':material/robot_2:'),
-    st.Page('app/src/my.py',title='CREDITS', icon=':material/contact_page:')
+    st.Page('app/streamlit_pages/ask.py',title='Food Classify', icon=':material/search:', default=True),
+    st.Page('app/streamlit_pages/metrics.py',title='Food CNN Metrics', icon=':material/dashboard:')
 ]
 
 #set streamlit navigation to follow pages list
